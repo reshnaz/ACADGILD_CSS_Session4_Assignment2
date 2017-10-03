@@ -1,0 +1,10 @@
+// _partial_style.scss -- This is the partial sass file that is to be imported into main (style.scss) sass file.
+
+
+//Below @mixin takes custom parameters -- border-radius and background-color -- that are passed/called from the main sass file.
+
+@mixin divProps($r, $c) {
+  border-radius: $r;
+  background-color: $c;
+}
+

@@ -1,0 +1,17 @@
+.dimensions, .divOne, .divTwo, .divThree {
+  width: 250px;
+  height: 150px; }
+
+.divOne {
+  border-radius: 40px;
+  background-color: #118E7F; }
+
+.divTwo {
+  border-radius: 20px;
+  background-color: #FF4400; }
+
+.divThree {
+  border-radius: 10px;
+  background-color: #00BBFF; }
+
+/*# sourceMappingURL=style.css.map */

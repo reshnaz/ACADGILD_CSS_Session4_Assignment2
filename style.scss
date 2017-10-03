@@ -1,0 +1,19 @@
+//Main sass file (style.scss) that will import partial sass (_partial_style.scss).
+
+@import 'partial_style';
+
+
+.dimensions {
+  width: 250px; 
+  height: 150px;
+}
+
+//Below 3 divs call the @mixin present in the partial sass file. The mixin applies apt border-radius and background color to these divs.
+//They also extend/inherit the properties of '.dimensions' class to give appropriate width & height to the divs.
+
+.divOne { @include divProps(40px, #118E7F); @extend .dimensions}
+
+.divTwo {@include divProps(20px, #FF4400); @extend .dimensions}
+
+.divThree {@include divProps(10px, #00BBFF); @extend .dimensions}
+
